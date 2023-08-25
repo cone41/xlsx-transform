@@ -1,0 +1,20 @@
+{
+	"name": "xlsx-transform",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:excel": "node scripts/js-to-excel.js",
+		"build:js": "node scripts/excel-to-js.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"xlsx": "^0.17.3"
+	},
+	"dependencies": {
+		"minimist": "^1.2.5"
+	}
+}
